@@ -1,0 +1,225 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navBar{
+display: flex;
+justify-content: flex-end;
+background-color: #BE3144;
+list-style: none;
+position: fixed;
+width: 100%;
+}
+.listItem{
+   font-size: x-large;
+   padding: 30px 0px;
+}
+.Clickers{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding: 30px;
+}
+.Clickers:hover{
+    background-color: #45567d;
+}
+.TitlePage{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    background-image: linear-gradient(62deg,#3a3d40 0%, #181719 100%);
+    color: white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Head2{
+    font-size: 35px;
+    color: #be3144;
+    font-style: italic;
+    font-weight: 100;
+}
+.ProjectPage{
+    background-color: #45567d;
+    height: 200vh;
+    display: grid;
+    text-align: center;
+    color: white;
+}
+.projectPageHeader{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+    text-underline-offset:15px;
+    text-decoration-thickness: 1px;
+}
+.container{
+ margin-top: -40px;
+ padding: 100px;
+ display: grid;
+ grid-column-gap: 50px;
+ grid-row-gap: 20px;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 1fr 1fr;
+ grid-template-areas: 
+ 'item1 item2 item3'
+ 'item4 item5 item6';
+}
+.item1{
+    grid-area: item1;
+}
+.item2{
+    grid-area: item2;
+}
+.item3{
+    grid-area: item3;
+}
+.item4{
+    grid-area: item4;
+}
+.item5{
+    grid-area: item5;
+}
+.item6{
+    grid-area: item6;
+}
+.cardImg{
+    height: 400px;
+    width: 400px;
+}
+.card{
+    background-color: #303841;
+    padding-bottom: 30px;
+}
+.item{
+    height: fit-content;
+}
+.cardText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    margin-top: 22px;
+}
+.buttonArea{
+    margin-top: -50px;
+}
+.addButton{
+    padding: 10px;
+    background-color: #303841;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    font-size: x-large;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.addButton:hover{
+    background-color: #be3144;
+}
+.footerPage{
+    background-color: #303841;
+    height: 85vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+.endingHead{
+    color: white;
+    font-size: 65px;
+}
+.endingHead2{
+    font-weight: 100;
+    font-style: italic;
+}
+.footerButtons{
+    margin-top:15px;
+    color: white;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    font-size: x-large;
+}
+.footerButton1{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: transform ease 300ms;
+}
+.footerButton2{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: transform ease 300ms;
+}
+.footerButton3{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: transform ease 300ms;
+}
+.footerButton4{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: transform ease 300ms;
+}
+.footerButton5{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: transform ease 300ms;
+}
+.footerButton1:hover{
+    transform: translate(0, 10px);
+}
+.footerButton2:hover{
+    transform: translate(0, 10px);
+}
+.footerButton3:hover{
+    transform: translate(0, 10px);
+}
+.footerButton4:hover{
+    transform: translate(0, 10px);
+}
+.footerButton5:hover{
+    transform: translate(0, 10px);
+}
+.cardLinks{
+    text-decoration: none;
+    color: white;
+}
+.hide{
+ color: #303841;
+ transition: color 0.3s ease ;
+}
+.cardLinks:hover .hide{
+    display: inline-block;
+    color: orange;
+}
+html{
+    scroll-behavior: smooth;
+}
+.Ending{
+    background-color: #303841;
+    border-top: 4px solid #be3144;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: large;
+}
